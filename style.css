@@ -1,0 +1,254 @@
+/* Navbar */
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+    
+}
+
+.nav-link {
+  font-family: viga;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url(asset/background2.png);
+  height: 390px;
+  text-align:center;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .display-4 {
+  color:#fff;
+  margin-top:75px ;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+/* info panel */
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top:-80px ;
+  background-color: white;
+  padding: 13px;
+}
+
+.info-panel img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.info-panel h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* Product */
+
+.card {
+  margin-bottom: 75px;
+}
+
+.card:hover {
+  background-color: #fff;
+  margin: relative;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease 0s;
+}
+
+section .card h2 {
+  color:#270101;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+section .product .display-4 {
+  color:#270101;
+  margin-top:75px ;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+section .product .display-4 span {
+  font-weight: 500;
+  color: rgb(210, 145, 145);
+}
+
+/* order */
+
+section .order {
+  margin-top:75px;
+  background-color: aliceblue;
+  
+}
+
+section .order h2 {
+  color: #270101;
+  margin-top:75px ;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+section .order h2 span {
+  color: rgb(210, 145, 145);
+  font-weight: 500;
+}
+
+section .order p {
+  color: #270101;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+section .order a {
+  border-radius: 16px;
+  margin-bottom: 75px;
+}
+
+/* about */
+
+.about {
+  margin-top:100px;
+}
+
+.about h4 {
+  color: #270101;
+  text-align: center;
+  font-weight: 300;
+  font-size: 55px;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.about h4 span{
+  color: rgb(210, 145, 145);
+  font-weight: 500;
+}
+
+.about h5 {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.about figure img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.about figure h5 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.about figure p {
+  font-size: 20px;
+  color: #acacac;
+  margin-bottom:100px;
+}
+
+.about figcaption {
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: aliceblue;
+  color: #270101;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.footer .instagram p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #000000;
+  
+}
+
+.footer .copy {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+/* desktop version */
+
+@media (min-width: 992px) { 
+
+  .navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(210, 145, 145);;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 490px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 55px;
+  }
+
+  section .card h2 {
+    font-size: 32px;
+  }
+
+  section .order p {
+    font-size: 32px;
+  }
+
+  .about h5 {
+    font-size: 32px;
+  }
+  
+}
