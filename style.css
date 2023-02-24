@@ -1,9 +1,12 @@
+* {
+  font-family: viga;
+}
+
 /* Navbar */
 
 .navbar-brand {
   font-family: viga;
   font-size: 32px;
-    
 }
 
 .nav-link {
@@ -127,63 +130,12 @@ section .order a {
   margin-bottom: 75px;
 }
 
-/* about */
-
-.about {
-  margin-top:100px;
-}
-
-.about h4 {
-  color: #270101;
-  text-align: center;
-  font-weight: 300;
-  font-size: 55px;
-  margin-bottom: 50px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-}
-
-.about h4 span{
-  color: rgb(210, 145, 145);
-  font-weight: 500;
-}
-
-.about h5 {
-  text-align: center;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 24px;
-  margin-bottom: 50px;
-}
-
-.about figure img {
-  width: 300px;
-  margin-bottom: 30px;
-}
-
-.about figure h5 {
-  color: #000000;
-  font-size: 24px;
-  font-weight: 400;
-  font-style: normal;
-  margin-bottom: 5px;
-}
-
-.about figure p {
-  font-size: 20px;
-  color: #acacac;
-  margin-bottom:100px;
-}
-
-.about figcaption {
-  text-align: center;
-}
-
 /* footer */
 
 .footer {
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: aliceblue;
+  background-color: white;
   color: #270101;
 }
 
@@ -244,10 +196,6 @@ section .order a {
   }
 
   section .order p {
-    font-size: 32px;
-  }
-
-  .about h5 {
     font-size: 32px;
   }
   
